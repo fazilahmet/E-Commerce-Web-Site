@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <title>Deneme Web Site</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="row">
+      <div class="col mt-5 ml-5  Logo">
+      <h1 style="color: white;">TRENDSHOP</h1>
+      </div>
+      <div class="col-12 col-md-7 pl-5 mt-5">
+        <div class="topnav" id="myTopnav">
+          <a href="#market" class="active"> <i class="fas fa-store"></i> Market</a>
+          <a href="#giyim"><i class="fas fa-tshirt"></i>  Giyim</a>
+          <a href="#ayakkabi"><i class="fas fa-shoe-prints"></i> Ayakkabı</a>
+          <a href="#elektronik"><i class="fas fa-tv"></i> Elektronik</a>
+          <a href="#evyasam"><i class="fas fa-home"></i> Ev / Yaşam</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      
+      </div>
+      <div class="col mt-5 text-center mr-4">
+        <a name="" id="btnGiris" class="btn btn-secondary p-2" href="#" role="button">SİPARİŞLERİ ONAYLA <i class="fas fa-shopping-basket"></i> </a>
+       </div>
+    </div>
+
+  
+    <div class="row mt-5">
+      <div class="col-md-6 tanitim-div mt-3" >
+          <div class="row" >
+            <div class="col-xl-4 col-md-12 col-12">
+              <div class="card">
+                <img src="images/kulaklik.jpg" height="180px" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">KULAKLIKLAR</h5>
+                  <p class="card-text">Some quick example text to build  the card's content.</p>
+                <a href="#" class="btn btn-card">Alışveriş Yap <i class="fas fa-shopping-basket"></i></a>
+                </div>
+              </div>
+            </div>
+          <div class="col-xl-4 col-md-12 col-12">
+            <div class="card">
+              <img src="images/tv.jpg" height="180px" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">TV & MONİTÖRLER</h5>
+                <p class="card-text">Some quick example text to build  the card's content.</p>
+                <a href="#" class="btn btn-card">Alışveriş Yap <i class="fas fa-shopping-basket"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-12 col-12">
+            <div class="card">
+              <img src="images/ayakkabi.png" height="180px" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">SPOR & OUTDOOR</h5>
+                <p class="card-text">Some quick example text to build  the card's content.</p>
+                <a href="#" class="btn btn-card">Alışveriş Yap <i class="fas fa-shopping-basket"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-12 mt-4">
+            <div class="card">
+              <a href="#">
+
+                <img src="images/6.jpg" height="180px" class="card-img-top" alt="...">
+              </a>
+              
+            </div>
+          </div>
+        </div>
+    
+      </div>
+      <div class="col-md-6 col-12">
+        
+          <a href="#">
+
+            <img class="rightImage" src="images/shop.jpg" style="max-width: 900px; height: 565px;">
+          </a>
+  
+        </div>
+       
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+  </body>
+</html>
